@@ -278,23 +278,23 @@ a:nth-of-type(7) {
 
 @keyframes shake{
   0% {
-    transform: translate(0,0) rotate(0deg);
+    transform: rotate(0deg);
     background-color: #3a8570;
   }
   25%{
-    transform: translate(3px, 3px) rotate(8deg);
+    transform: rotate(8deg);
     background-color: #3a8570;
   }
   50% {
-    transform: translate(0, 0) rotate(0eg);
+    transform: rotate(0deg);
     background-color: #3a8570;
   }
   75%{
-    transform: translate(-3px, 3px) rotate(-8deg);
+    transform: rotate(-8deg);
     background-color: #3a8570;
   }
   100% {
-    transform: translate(0, 0) rotate(0deg);
+    transform: rotate(0deg);
     background-color: #3a8570;
   }
 }
